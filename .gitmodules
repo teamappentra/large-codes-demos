@@ -1,0 +1,3 @@
+[submodule "GROMACS/src"]
+	path = GROMACS/src
+	url = https://github.com/gromacs/gromacs.git

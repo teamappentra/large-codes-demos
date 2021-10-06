@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "compile_commands": "build/compile_commands.json",
+  "analyses": [
+    {
+      "match": "*.cpp",
+      "command": "/usr/bin/c++ -DGMX_DOUBLE=0 -O3 -DNDEBUG -std=c++17 -Ibuild/src -Isrc/src -isystem src/src/external %f"
+    }
+  ]
+}
